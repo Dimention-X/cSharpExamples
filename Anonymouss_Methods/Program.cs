@@ -33,9 +33,10 @@ namespace cSharpExamples
         
            Transformas sqrmulten= delegate(int x)
            {
-            Console.WriteLine("Anonymous Method {0}",x); };
+            Console.WriteLine("Anonymous Method {0}",x); 
+           };
 
-           sqrmulten(10);
+            sqrmulten(10);
             sqrmulten = new Transformas(AddNum());
             sqrmulten(20);
             sqrmulten = new Transformas(Multi());
