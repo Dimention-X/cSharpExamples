@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Reflection;
+
+namespace ReflectionDemo
+{
+    public interface shape
+    {
+        void area(int r);
+    }
+
+    public class c1 : shape
+    {
+        public void area(int r)
+        {
+            Console.WriteLine("Class1"+r);
+        }
+    }
+
+    public class c2 : shape
+    {
+        public void area(int r)
+        {
+            Console.WriteLine("Class2"+r);
+        }
+    }
+
+    public class c3 : shape
+    {
+        public void area(int r)
+        {
+            Console.WriteLine("Class3"+r );
+        }
+
+        public void area1(int r, string abs)
+        {
+            Console.WriteLine("Class3" + r + " : " + abs);
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+          object str11 = Console.ReadLine();
+           Type ti = typeof(c3);
+         
+            object obj = Activator.CreateInstance(ti);
+            MethodInfo met = ti.GetMethod("area1");
+            met.Invoke(obj, new object[] {4,"abcd"});
+            Console.ReadLine();
+            //c1 demo1 = new c1();
+            //c2 demo2 = new c2();
+            //c3 demo3 = new c3();
+      
+        }
+    }
+}
