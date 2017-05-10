@@ -1,0 +1,6 @@
+c:\users\akumar\documents\visual studio 2012\Projects\CSV_File_operations\CSV_File_operations\bin\Debug\CSV_File_operations.exe.config
+c:\users\akumar\documents\visual studio 2012\Projects\CSV_File_operations\CSV_File_operations\obj\Debug\CSV_File_operations.csprojResolveAssemblyReference.cache
+c:\users\akumar\documents\visual studio 2012\Projects\CSV_File_operations\CSV_File_operations\bin\Debug\CSV_File_operations.exe
+c:\users\akumar\documents\visual studio 2012\Projects\CSV_File_operations\CSV_File_operations\bin\Debug\CSV_File_operations.pdb
+c:\users\akumar\documents\visual studio 2012\Projects\CSV_File_operations\CSV_File_operations\obj\Debug\CSV_File_operations.exe
+c:\users\akumar\documents\visual studio 2012\Projects\CSV_File_operations\CSV_File_operations\obj\Debug\CSV_File_operations.pdb
