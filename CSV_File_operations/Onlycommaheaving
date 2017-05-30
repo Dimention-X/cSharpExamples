@@ -1,0 +1,68 @@
+ private static void Students_CSV_Read()
+        {
+            // Read Data from the Akhilesh_Students CSV File.
+            List<string> listA = new List<string>();
+            List<string> listB = new List<string>();
+            List<string> listC = new List<string>();
+            List<string> listD = new List<string>();
+            List<string> listE = new List<string>();
+
+            using (var fs = File.OpenRead(@"C:\Cortera_Project\Akhilesh_Student.CSV"))
+            using (var reader = new StreamReader(fs))
+            {
+
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line.Split(',');
+
+                    listA.Add(values[0]);
+                    listB.Add(values[1]);
+                    listC.Add(values[2]);
+                    listD.Add(values[3]);
+                }
+
+
+                
+            }
+        }
+
+        private static void Marks_CSV_Read()
+        {
+            // Read The data from the Akhilesh_Marks CSV File.
+            List<string> listA = new List<string>();
+            List<string> listB = new List<string>();
+            List<string> listC = new List<string>();
+            int ?k=null;
+
+            using (var fs = File.OpenRead(@"C:\Cortera_Project\Akhilesh_Marks.CSV"))
+            using (var reader = new StreamReader(fs))
+            {
+
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line.Split(',');
+
+                    listA.Add(values[0]);
+                    listB.Add(values[1]);
+                    listC.Add(values[2]);
+                }
+
+                foreach (var item in listA)
+                {
+                    Console.WriteLine(item);
+                }
+                Console.WriteLine("+++++++++");
+                foreach (var item in listA)
+                {
+                    Console.WriteLine(item);
+                }
+                Console.WriteLine("+++++++++");
+                foreach (var item in listA)
+                {
+                    Console.WriteLine(item);
+                }
+                Console.WriteLine("+++++++++");
+
+            }
