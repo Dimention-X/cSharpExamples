@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.13
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cSharpExamples", "cSharpExamples\cSharpExamples.csproj", "{05635E81-F250-47D2-A82B-64D3E7F9A086}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing_DataType", "Testing_DataType\Testing_DataType.csproj", "{8CAC9EF2-429E-42D9-9FBA-9E68F043E79B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception_handling", "Exception_handling\Exception_handling.csproj", "{1CACE582-83D1-44F3-AFFB-0497A71CDEAA}"
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{05635E81-F250-47D2-A82B-64D3E7F9A086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05635E81-F250-47D2-A82B-64D3E7F9A086}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05635E81-F250-47D2-A82B-64D3E7F9A086}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05635E81-F250-47D2-A82B-64D3E7F9A086}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CAC9EF2-429E-42D9-9FBA-9E68F043E79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CAC9EF2-429E-42D9-9FBA-9E68F043E79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CAC9EF2-429E-42D9-9FBA-9E68F043E79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
