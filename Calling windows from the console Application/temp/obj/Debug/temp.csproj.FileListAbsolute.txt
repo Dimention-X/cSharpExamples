@@ -1,0 +1,9 @@
+c:\users\akumar\documents\visual studio 2012\Projects\temp\temp\bin\Debug\temp.exe.config
+c:\users\akumar\documents\visual studio 2012\Projects\temp\temp\bin\Debug\temp.exe
+c:\users\akumar\documents\visual studio 2012\Projects\temp\temp\bin\Debug\temp.pdb
+c:\users\akumar\documents\visual studio 2012\Projects\temp\temp\bin\Debug\oracle.dataaccess.dll
+c:\users\akumar\documents\visual studio 2012\Projects\temp\temp\obj\Debug\temp.exe
+c:\users\akumar\documents\visual studio 2012\Projects\temp\temp\obj\Debug\temp.pdb
+C:\Users\akumar\Documents\Visual Studio 2012\Projects\temp\temp\obj\Debug\temp.csprojResolveAssemblyReference.cache
+C:\Users\akumar\Documents\Visual Studio 2012\Projects\temp\temp\obj\Debug\temp.Form1.resources
+C:\Users\akumar\Documents\Visual Studio 2012\Projects\temp\temp\obj\Debug\temp.csproj.GenerateResource.Cache
